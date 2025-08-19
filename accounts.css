@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eef2f7;
+  max-width: 100%;
+  margin: auto;
+  padding: 20px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003366; /* Deep banking blue */
+    padding: 1rem 2rem;
+}
+.logo {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 0.8rem;
+    transition: background-color 0.3s;
+}
+nav a:hover {
+    background-color: #0055aa;
+    border-radius: 4px;
+}
+.btn-login {
+    background-color: #ffcc00;
+    color: #003366;
+    border-radius: 4px;
+}
+.btn-login:hover {
+    background-color: #e6b800;
+}
+
+
+h1, h2 {
+  text-align: center;
+  color: #222;
+}
+
+section {
+  background-color: rgb(194, 236, 3);
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(245, 62, 62, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input, textarea, button {
+  width: 50%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #09044e;
+  color: rgb(19, 243, 243);
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #010911;
+}
